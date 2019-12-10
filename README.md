@@ -8,4 +8,4 @@ For this project I used **HTML** for the basic skeleton of the webpage, **CSS** 
 The objective of this point is showcasing my capacity to fetch an external API via javascript and utilizing its data to fill the necessary information into each card
 I also used a function to assign a poster to each card during its iteration in the APi
 ### Credits and Thank you notes
-main credit for this project goes to ***Tania Rascia*** for her excelent tutorial, it was the main base for this project, also to the checkpoint community on discord for the advice and to any recruiter that might be reading this, hope it's worth your time
+main credit for this project goes to ***Tania Rascia*** for her excelent tutorial (check her page https://www.taniarascia.com/), it was the main base for this project, also to the checkpoint community on discord for the advice and to any recruiter that might be reading this, hope it's worth your time
