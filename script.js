@@ -54,12 +54,10 @@ fetch('https://ghibliapi.herokuapp.com/films')
 
       //create a p and set the text content to the films description
       const p = document.createElement('p')
-      //movie.description = movie.description.substring(0, 300)//Limit to 300 charset
-      p.textContent = `${movie.description}...`//End with an ellipses
+      p.textContent = `${movie.description}`//End with an ellipses
 
       //create an img object and set it to the corresponding file on the imgs folder
       const poster = document.createElement('img')
-      console.log('a punto de entrar al jQuery');
       poster.src = correctPoster(movie.id);
       poster.setAttribute('object-fit', 'contain')
 
@@ -74,5 +72,5 @@ fetch('https://ghibliapi.herokuapp.com/films')
     console.log(data)
   })
   .catch(err => {
-    console.log("something went wrong, unexpected outcome")
+    console.log('something went wrong, unexpected outcome')
   })
